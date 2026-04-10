@@ -110,7 +110,7 @@ Products were grouped into:
 ---
 
 ## 🔗 GitHub Repository
-👉 Add your repository link here
+👉 https://github.com/Rudhra-01/Zepto-Postgresql-Analysis.git
 --
 ## 🚀 Conclusion
 This project demonstrates how SQL can be used to transform raw data into actionable business insights.  
