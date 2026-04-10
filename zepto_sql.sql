@@ -1,3 +1,4 @@
+
 drop table if exists zepto;
 
 create table zepto(
@@ -129,3 +130,16 @@ sum(weightingms * availablequantity) as total_weight
 from zepto
 group by category
 order by total_weight;
+
+--9.Top Categories by Revenue
+
+select category, sum(discountsellingprice) as revenue
+from zepto
+group by category
+order by revenue desc;
+
+--10.Average Discount by Category
+select category, avg(discountpercent) as avg_discount
+from zepto
+group by category
+order by avg_discount desc;
